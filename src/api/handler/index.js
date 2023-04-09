@@ -21,10 +21,10 @@ class Handler {
                 transaction,
                 [fromWallet]
             );
-            res.status(200).send(signature);
+            res.status(200).send({ signature });
         } catch (err) {
             console.log(err);
-            res.status(500).send();
+            res.status(500).send('Internal Server error.');
         }
     }
 };
