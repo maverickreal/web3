@@ -1,6 +1,8 @@
 # web3
+### Send Solana tokens to a user's wallet using just their address (public key).
+### Currently based on top of the testnet network and therefore heavily rate limited in terms of funding from their end.
 ### How to run
-1. Give executable permission to the fund_upto_hundred_tokens.sh scrip using:
+1. Give executable permission to the fund_upto_hundred_tokens.sh script using:
 ```sh
 chmod +x fund_upto_hundred_tokens.sh
 ```
@@ -15,3 +17,4 @@ npm install
 ```sh
 npm run start
 ```
+### API Doc [HERE](https://documenter.getpostman.com/view/15905495/2s93XsY66j)
